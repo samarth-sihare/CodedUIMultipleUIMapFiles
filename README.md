@@ -2,7 +2,7 @@
 This is a sample project that uses multiple UIMap (.uitest) files to organize the controls of larger applications.
 
 ## Useful Extension
-<b>UIMap Toolbox:<b/> A tool that allow you to restructure, split and merge UIMaps created for Microsoft CodedUI tests
+<b>UIMap Toolbox:</b> A tool that allow you to restructure, split and merge UIMaps created for Microsoft CodedUI tests
 
 <strong>How To Install..?</strong>
 
