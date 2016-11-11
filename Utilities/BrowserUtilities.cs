@@ -59,6 +59,17 @@ namespace CodedUIMultipleUIMapFiles
         ///<summary>
         ///Few methods for HTML Table
         ///</summary>
+        ///
+        private HtmlCell cellByStringContaining(int columnIndex, HtmlTable table, string cellText)
+        {
+            HtmlCell cell = new HtmlCell(table);
+            cell.TechnologyName = "Web";
+            cell.SearchProperties.Add(HtmlCell.PropertyNames.ColumnIndex, columnIndex.ToString());
+            cell.SearchProperties.Add(HtmlCell.PropertyNames.FriendlyName, cellText, PropertyExpressionOperator.Contains);
+
+            return cell;
+        }
+
         private HtmlCell cellByRowColumnIndex(int rowIndex, int columnIndex, HtmlTable table)
         {
             HtmlCell cell = new HtmlCell(table);
